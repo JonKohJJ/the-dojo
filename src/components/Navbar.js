@@ -1,3 +1,5 @@
+
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { useLogout } from '../hooks/useLogout'
 import { useAuthContext } from '../hooks/useAuthContext'
@@ -7,13 +9,9 @@ import './Navbar.css'
 import Temple from '../assets/temple.svg'
 
 
-import React from 'react'
-
 export default function Navbar() {
     
-    const { logout, error, isPending } = useLogout()
-    console.log("isPending: ", isPending);
-
+    const { logout, isPending } = useLogout()
     const { user } = useAuthContext()
 
   return (
