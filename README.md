@@ -1,4 +1,4 @@
-# Project Management Site
+# The Dojo - A Project Management Web Application
 
 Enter the live site [https://thedojosite-33599.firebaseapp.com/](https://thedojosite-33599.firebaseapp.com/).
 
