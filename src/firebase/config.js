@@ -4,12 +4,12 @@ import 'firebase/auth'
 import 'firebase/storage'
 
 const firebaseConfig = {
-    apiKey:                 process.env.REACT_APP_FIREBASE_APIKEY,
-    authDomain:             process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
-    projectId:              process.env.REACT_APP_FIREBASE_PROJECTID,
-    storageBucket:          process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
-    messagingSenderId:      process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
-    appId:                  process.env.REACT_APP_FIREBASE_APPID
+    apiKey: "AIzaSyBwk5umUWamq8h42ci9jBFqc4vfeAQ4x-Y",
+    authDomain: "thedojosite-33599.firebaseapp.com",
+    projectId: "thedojosite-33599",
+    storageBucket: "thedojosite-33599.appspot.com",
+    messagingSenderId: "949834549011",
+    appId: "1:949834549011:web:15c4e2e285f1bf96747ce6"
 };
 
 // init firebase
